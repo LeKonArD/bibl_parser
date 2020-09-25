@@ -3,6 +3,6 @@
 <img src="misc/model.png" width="200"/>
 
 ## Training
-<img src="misc/train.png" width="200"/>
+<img src="misc/train.png" width="300"/>
 
 ## Usage
