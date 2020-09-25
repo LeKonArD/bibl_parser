@@ -1,5 +1,5 @@
 # Bibliographic Reference Parser for German Humanities Journals
-Dissclaimer: Currently the model only supports the extraction of author names from references.
+Dissclaimer: Currently the model only supports the extraction of author names from references. The annotations in gold/dvjs_annot_references_full.xml contain much more information.
 ## Model
 <img src="misc/model.png" width="200"/>
 The model consists of two bidirectional GRUs and two dense layers. The first GRU receives the output of the last layer of a multilingual BERT model as input.
