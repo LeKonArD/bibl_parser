@@ -1,7 +1,8 @@
 # Bibliographic Reference Parser for German 
 ## Model
-<img src="misc/model.png" width="200">
-![Image of Architecture](misc/model.png){ width=50% }
+<img src="misc/model.png" width="200"/>
+
 ## Training
-![Image of Architecture](misc/train.png)
+<img src="misc/train.png" width="200"/>
+
 ## Usage
