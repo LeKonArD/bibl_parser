@@ -1,4 +1,4 @@
-# Bibliographic Reference Parser for German 
+# Bibliographic Reference Parser for German Humanities Journals
 ## Model
 <img src="misc/model.png" width="200"/>
 The model consists of two bidirectional GRUs and two dense layers. The first GRU receives the output of the last layer of a multilingual BERT model as input.
