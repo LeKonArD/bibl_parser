@@ -64,9 +64,10 @@ def gen_prediction(sources, batch_size, seq_len):
             yield np.array(x_batch)
 
             x_batch = []
-            
-dvjs = pd.read_csv("./../data/dvjs_all_bibl.tsv", index_col=0, sep="\t")
-inputs = list(dvjs["text"])
+
+## load strings for prediction as list of strings in input            
+inputs = 
+
 gen = gen_prediction(inputs,10,100)
 m = load_model("./../models/dvjs_authors.h5", custom_objects={"single_class_accuracy":single_class_accuracy})
 
